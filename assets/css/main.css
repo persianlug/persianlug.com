@@ -1694,3 +1694,8 @@ input, select, textarea {
 .ltr {
 	direction: ltr;
 }
+
+.rtl ul {
+	padding-right: 1em;
+	padding-left: 0;
+}
