@@ -1,6 +1,5 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
-@import url("assets/font/vazir/Vazirmatn-font-face.css");
 
 /*
 	Dimension by HTML5 UP
@@ -50,8 +49,6 @@ blockquote, q {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-
-	font-size: 0.80rem;
 }
 
 body {
@@ -144,12 +141,10 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		/*font-family: "Source Sans Pro", sans-serif;*/
+		font-family: "Source Sans Pro", sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
-
-		font-family: Vazirmatn, sans-serif;
 	}
 
 	a {
@@ -183,11 +178,9 @@ input, select, textarea {
 		color: #ffffff;
 		font-weight: 600;
 		line-height: 1.5;
-		/*margin: 0 0 1rem 0;*/
+		margin: 0 0 1rem 0;
 		text-transform: uppercase;
-		/*letter-spacing: 0.2rem;*/
-
-		margin: 0 0 0.6rem 0;
+		letter-spacing: 0.2rem;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -208,13 +201,13 @@ input, select, textarea {
 	h1 {
 		font-size: 2.25rem;
 		line-height: 1.3;
-		/*letter-spacing: 0.5rem;*/
+		letter-spacing: 0.5rem;
 	}
 
 	h2 {
 		font-size: 1.5rem;
 		line-height: 1.4;
-		/*letter-spacing: 0.5rem;*/
+		letter-spacing: 0.5rem;
 	}
 
 	h3 {
@@ -386,7 +379,7 @@ input, select, textarea {
 		display: block;
 		font-size: 0.8rem;
 		font-weight: 300;
-		/*letter-spacing: 0.2rem;*/
+		letter-spacing: 0.2rem;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
 		text-transform: uppercase;
@@ -966,9 +959,7 @@ input, select, textarea {
 			font-size: 0.9em;
 			font-weight: 600;
 			padding: 0 0.75em 0.75em 0.75em;
-			/*text-align: left;*/
-
-			text-align: right;
+			text-align: left;
 		}
 
 		table thead {
@@ -1030,7 +1021,7 @@ input, select, textarea {
 		font-size: 0.8rem;
 		font-weight: 300;
 		height: 2.75rem;
-		/*letter-spacing: 0.2rem;*/
+		letter-spacing: 0.2rem;
 		line-height: 2.75rem;
 		outline: 0;
 		padding: 0 1.25rem 0 1.35rem;
@@ -1269,8 +1260,6 @@ input, select, textarea {
 		background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		max-width: 100%;
 		text-align: center;
-
-		direction: rtl;
 	}
 
 		#header > * {
@@ -1305,8 +1294,8 @@ input, select, textarea {
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
-			/*border: solid 1px #ffffff;*/
-			/*border-radius: 100%;*/
+			border: solid 1px #ffffff;
+			border-radius: 100%;
 		}
 
 		#header .logo .avatar {
@@ -1316,7 +1305,6 @@ input, select, textarea {
 
 			border-radius: 4px;
 		}
-
 
 			#header .logo .icon:before {
 				font-size: 2rem;
@@ -1350,7 +1338,7 @@ input, select, textarea {
 
 			#header .content p {
 				text-transform: uppercase;
-				/*letter-spacing: 0.2rem;*/
+				letter-spacing: 0.2rem;
 				font-size: 0.8rem;
 				line-height: 2;
 			}
@@ -1369,11 +1357,11 @@ input, select, textarea {
 
 			#header nav ul li {
 				padding-left: 0;
-				border-right: solid 1px #ffffff;
+				border-left: solid 1px #ffffff;
 			}
 
 				#header nav ul li:first-child {
-					border-right: 0;
+					border-left: 0;
 				}
 
 				#header nav ul li a {
@@ -1383,11 +1371,9 @@ input, select, textarea {
 					line-height: 2.75rem;
 					padding: 0 1.25rem 0 1.45rem;
 					text-transform: uppercase;
-					/*letter-spacing: 0.2rem;*/
+					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
 					border-bottom: 0;
-
-					font-weight: bold;
 				}
 
 					#header nav ul li a:hover {
@@ -1410,7 +1396,7 @@ input, select, textarea {
 		}
 
 		#header nav.use-middle ul li.is-middle {
-			border-right: 0;
+			border-left: 0;
 		}
 
 		body.is-article-visible #header {
@@ -1466,11 +1452,6 @@ input, select, textarea {
 				width: 4.75rem;
 				height: 4.75rem;
 				line-height: 4.75rem;
-			}
-
-			#header .logo .avatar {
-				width: 4.75rem;
-				height: 4.75rem;
 			}
 
 				#header .logo .icon:before {
@@ -1571,13 +1552,11 @@ input, select, textarea {
 			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
 			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
-			width: 45rem;
+			width: 40rem;
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
 			opacity: 0;
-
-			direction: rtl;
 		}
 
 			#main article.active {
@@ -1592,7 +1571,7 @@ input, select, textarea {
 				display: block;
 				position: absolute;
 				top: 0;
-				left: 0;
+				right: 0;
 				width: 4rem;
 				height: 4rem;
 				cursor: pointer;
@@ -1688,6 +1667,3 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
-
-
-
